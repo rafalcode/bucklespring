@@ -73,9 +73,9 @@ void key_pressed_cb(XPointer arg, XRecordInterceptData *d)
 			case KeyPress:
 				play(key, 1);
 				break;
-			case KeyRelease:
-				play(key, 0);
-				break;
+			// case KeyRelease:
+			// 	play(key, 0);
+			// 	break;
 			case ButtonPress:
 				if(key == -5 || key == -7)
 					play(0xff, 1);

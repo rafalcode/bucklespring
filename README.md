@@ -1,4 +1,4 @@
-Nostalgia bucklespring keyboard sound
+Hacked bucklespring keyboard sound
 =====================================
 
 Copyright 2016 Ico Doornekamp
@@ -7,8 +7,12 @@ This project emulates the sound of my old faithful IBM Model-M space saver
 bucklespring keyboard while typing on my notebook, mainly for the purpose of
 annoying the hell out of my coworkers.
 
-![Model M](img/model-m.jpg)
-![Buckle](img/buckle.gif)
+Fork rationale:
+This fork is for associating spoken key names to the keys themselves.
+
+Right now bucklspring has two sounds per key, one when pressed, the otehr when released.
+
+In the beginning only key press sounds will be emitted.
 
 Bucklespring runs as a background process and plays back the sound of each key
 pressed and released on your keyboard, just as if you were using an IBM
